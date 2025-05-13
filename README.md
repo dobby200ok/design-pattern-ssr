@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# design-pattern-nextjs
 
-## Getting Started
+## 개요
 
-First, run the development server:
+생산성을 증대시키기 위해 Next.js를 사용한 프로젝트에서 주로 사용하는 라이브러리, 디자인 패턴에 대해 관리하고 기록합니다.
+
+
+## 시작 방법
+
+깃 레포지토리를 pull하고, 라이브러리 브랜치를 기준으로 아래의 명령어를 실행합니다.
 
 ```bash
-npm run dev
-# or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+레포지토리 별 README.md문서를 참조해 주세요.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 의존성 목록
 
-## Learn More
+프로젝트 개발에 사용된 의존성 목록 리스트입니다.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+| 의존성명 | 버전 | 비고 |
+| --- | --- | --- |
+| Next.js | 15.3.2 | - |
