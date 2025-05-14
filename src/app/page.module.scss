@@ -1,0 +1,47 @@
+@use '@/styles/common' as *;
+
+.tit-h1 {
+  @include text(h1);
+}
+.area-space {
+  padding-top: spacing(6);
+}
+.tit-h2 {
+  @include text(h2);
+}
+.tit-h3 {
+  @include text(h3);
+}
+.txt-p1{
+  @include text(p1);
+}
+.txt-p2{
+  @include text(p2);
+}
+.txt-p3{
+  @include text(p3);
+}
+
+@include respond-max($breakpoint-desktop) {
+  .tit-h1 {
+    @include text(h2);
+  }
+  .area-space {
+    padding-top: spacing(4);
+  }
+  .tit-h2 {
+    @include text(h3);
+  }
+  .tit-h3 {
+    @include text(h4);
+  }
+  .txt-p1{
+    @include text(p2);
+  }
+  .txt-p2{
+    @include text(p3);
+  }
+  .txt-p3{
+    @include text(p4);
+  }
+}
